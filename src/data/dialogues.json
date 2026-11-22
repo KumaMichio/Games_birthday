@@ -1,0 +1,82 @@
+{
+  "lily_intro": {
+    "id": "lily_intro",
+    "speaker": "Lily",
+    "nodes": {
+      "start": {
+        "text": "Oh! A visitor — welcome to my little flower shop. Are you new around here?",
+        "choices": [
+          { "text": "Yes, I'm just exploring.", "next": "exploring" },
+          { "text": "I found an invitation… someone's expecting me.", "next": "invitation" }
+        ]
+      },
+      "exploring": {
+        "text": "Then you've come to the right street. Every corner here has a story — some of them might surprise you.",
+        "next": "offer"
+      },
+      "invitation": {
+        "text": "An invitation? My, my… so you're the one. I had a feeling today was special.",
+        "next": "offer"
+      },
+      "offer": {
+        "text": "Actually — could you help me with something? A little blue flower grows somewhere quiet in town. Near water, tucked behind a hedge. Would you find it for me?",
+        "choices": [
+          {
+            "text": "I'll find it.",
+            "next": "accepted",
+            "actions": [{ "type": "startQuest", "id": "find_blue_flower" }]
+          },
+          { "text": "Maybe later.", "next": "later" }
+        ]
+      },
+      "accepted": {
+        "text": "Thank you! Try the little alley on the far side of the plaza — follow it to the very end.",
+        "next": null
+      },
+      "later": {
+        "text": "No hurry at all. I'll be here among the petals.",
+        "next": null
+      }
+    }
+  },
+  "lily_quest_active": {
+    "id": "lily_quest_active",
+    "speaker": "Lily",
+    "nodes": {
+      "start": {
+        "text": "Any luck yet? Follow the alley past the plaza — the hedges on this street hide more than one secret.",
+        "next": null
+      }
+    }
+  },
+  "lily_turnin": {
+    "id": "lily_turnin",
+    "speaker": "Lily",
+    "nodes": {
+      "start": {
+        "text": "You found it! The little blue flower… you have no idea how much this one means. Or — perhaps one day you will.",
+        "actions": [
+          { "type": "removeItem", "id": "blue_flower" },
+          { "type": "completeObjective", "quest": "find_blue_flower", "objective": "return" },
+          { "type": "completeQuest", "id": "find_blue_flower" },
+          { "type": "discoverMemory", "id": "memory_blue_flower" }
+        ],
+        "next": "closing"
+      },
+      "closing": {
+        "text": "Keep it in your heart. Something tells me this street has much more to show you.",
+        "next": null
+      }
+    }
+  },
+  "lily_post": {
+    "id": "lily_post",
+    "speaker": "Lily",
+    "nodes": {
+      "start": {
+        "text": "The flower is happy here now. So am I. Whoever set your invitation in motion… they knew what they were doing.",
+        "next": null
+      }
+    }
+  }
+}

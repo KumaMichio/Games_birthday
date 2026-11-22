@@ -1,0 +1,123 @@
+{
+  "flower_white": {
+    "id": "flower_white",
+    "kind": "flower",
+    "color": "#f5f2ea",
+    "position": [4.5, 0, -1],
+    "label": "Pick the little white flower",
+    "visibleWhen": { "questStatus": { "id": "flowers_for_someone", "status": "active" } },
+    "onCollect": [
+      { "type": "addItem", "id": "flower_white" },
+      { "type": "completeObjective", "quest": "flowers_for_someone", "objective": "pick_white" }
+    ]
+  },
+  "flower_pink": {
+    "id": "flower_pink",
+    "kind": "flower",
+    "color": "#f2a7c3",
+    "position": [-2.5, 0, -44],
+    "label": "Pick the little pink flower",
+    "visibleWhen": { "questStatus": { "id": "flowers_for_someone", "status": "active" } },
+    "onCollect": [
+      { "type": "addItem", "id": "flower_pink" },
+      { "type": "completeObjective", "quest": "flowers_for_someone", "objective": "pick_pink" }
+    ]
+  },
+  "flower_blue": {
+    "id": "flower_blue",
+    "kind": "flower",
+    "color": "#6c9bd1",
+    "position": [11.5, 0, -24],
+    "label": "Pick the little blue flower",
+    "visibleWhen": { "questStatus": { "id": "flowers_for_someone", "status": "active" } },
+    "onCollect": [
+      { "type": "addItem", "id": "flower_blue" },
+      { "type": "completeObjective", "quest": "flowers_for_someone", "objective": "pick_blue" }
+    ]
+  },
+  "faded_photograph": {
+    "id": "faded_photograph",
+    "kind": "photograph",
+    "position": [-5.2, 0, -16],
+    "label": "Look at the faded photograph",
+    "visibleWhen": { "chapterAtLeast": 2 },
+    "onCollect": [{ "type": "discoverMemory", "id": "memory_photograph" }]
+  },
+  "page_1": {
+    "id": "page_1",
+    "kind": "page",
+    "position": [5.5, 0, -19.5],
+    "label": "Pick up the torn page",
+    "visibleWhen": { "questStatus": { "id": "missing_pages", "status": "active" } },
+    "onCollect": [
+      { "type": "addItem", "id": "page_1" },
+      { "type": "completeObjective", "quest": "missing_pages", "objective": "page_1" }
+    ]
+  },
+  "page_2": {
+    "id": "page_2",
+    "kind": "page",
+    "position": [-3, 0, -33],
+    "label": "Pick up the torn page",
+    "visibleWhen": { "questStatus": { "id": "missing_pages", "status": "active" } },
+    "onCollect": [
+      { "type": "addItem", "id": "page_2" },
+      { "type": "completeObjective", "quest": "missing_pages", "objective": "page_2" }
+    ]
+  },
+  "page_3": {
+    "id": "page_3",
+    "kind": "page",
+    "position": [-11, 0, -42],
+    "label": "Pick up the torn page",
+    "visibleWhen": { "questStatus": { "id": "missing_pages", "status": "active" } },
+    "onCollect": [
+      { "type": "addItem", "id": "page_3" },
+      { "type": "completeObjective", "quest": "missing_pages", "objective": "page_3" }
+    ]
+  },
+  "garden_locket": {
+    "id": "garden_locket",
+    "kind": "locket",
+    "position": [18.5, 0, -38.5],
+    "label": "Pick up the garden locket",
+    "visibleWhen": { "unlocked": "hidden_garden" },
+    "onCollect": [
+      { "type": "addItem", "id": "garden_locket" },
+      { "type": "discoverMemory", "id": "memory_garden" }
+    ]
+  },
+  "postcard_1": {
+    "id": "postcard_1",
+    "kind": "postcard",
+    "position": [2.5, 0, 9],
+    "label": "Pick up the postcard",
+    "visibleWhen": { "questStatus": { "id": "postcards_from_nowhere", "status": "active" } },
+    "onCollect": [
+      { "type": "addItem", "id": "postcard_1" },
+      { "type": "completeObjective", "quest": "postcards_from_nowhere", "objective": "p1" }
+    ]
+  },
+  "postcard_2": {
+    "id": "postcard_2",
+    "kind": "postcard",
+    "position": [12, 0, -8],
+    "label": "Pick up the postcard",
+    "visibleWhen": { "questStatus": { "id": "postcards_from_nowhere", "status": "active" } },
+    "onCollect": [
+      { "type": "addItem", "id": "postcard_2" },
+      { "type": "completeObjective", "quest": "postcards_from_nowhere", "objective": "p2" }
+    ]
+  },
+  "postcard_3": {
+    "id": "postcard_3",
+    "kind": "postcard",
+    "position": [3, 0, -52],
+    "label": "Pick up the postcard",
+    "visibleWhen": { "questStatus": { "id": "postcards_from_nowhere", "status": "active" } },
+    "onCollect": [
+      { "type": "addItem", "id": "postcard_3" },
+      { "type": "completeObjective", "quest": "postcards_from_nowhere", "objective": "p3" }
+    ]
+  }
+}

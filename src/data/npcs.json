@@ -1,0 +1,33 @@
+{
+  "lily": {
+    "id": "lily",
+    "name": "Lily",
+    "role": "The Florist",
+    "location": "flower_shop",
+    "position": [-4.3, 0, -12.5],
+    "facing": 1.5708,
+    "interactionRadius": 2.5,
+    "colors": { "body": "#8fbf8f", "head": "#ffd9b3", "nose": "#f2b28c" },
+    "quests": ["find_blue_flower"],
+    "dialogueRules": [
+      {
+        "if": { "questStatus": { "id": "find_blue_flower", "status": "completed" } },
+        "dialogue": "lily_post"
+      },
+      {
+        "if": {
+          "and": [
+            { "questStatus": { "id": "find_blue_flower", "status": "active" } },
+            { "hasItem": "blue_flower" }
+          ]
+        },
+        "dialogue": "lily_turnin"
+      },
+      {
+        "if": { "questStatus": { "id": "find_blue_flower", "status": "active" } },
+        "dialogue": "lily_quest_active"
+      },
+      { "dialogue": "lily_intro" }
+    ]
+  }
+}

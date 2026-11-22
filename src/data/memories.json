@@ -1,0 +1,72 @@
+{
+  "memory_invitation": {
+    "id": "memory_invitation",
+    "title": "The Invitation",
+    "text": "Somewhere along this street, there is something waiting for you. You just have to remember.",
+    "personalNote": "[PLACEHOLDER — a note about how this all began]",
+    "chapter": 1
+  },
+  "memory_blue_flower": {
+    "id": "memory_blue_flower",
+    "title": "The Little Blue Flower",
+    "text": "Some little things don't seem important at first. But sometimes, they become the things we remember most.",
+    "personalNote": "[PLACEHOLDER — replace with the real shared memory tied to this moment]",
+    "chapter": 2
+  },
+  "memory_photograph": {
+    "id": "memory_photograph",
+    "title": "A Faded Photograph",
+    "text": "It was left on a shelf by the flower shop, as if someone knew you would look there.",
+    "personalNote": "[PLACEHOLDER — describe the real photo that will appear here]",
+    "chapter": 2
+  },
+  "memory_missing_pages": {
+    "id": "memory_missing_pages",
+    "title": "The Story in the Pages",
+    "text": "It began on an ordinary day, with an ordinary hello that was anything but.",
+    "personalNote": "[PLACEHOLDER — the real story these pages are about]",
+    "chapter": 3
+  },
+  "memory_letter": {
+    "id": "memory_letter",
+    "title": "A Letter Never Sent",
+    "text": "Some words wait years for the right moment. Some wait for the right person to carry them.",
+    "personalNote": "[PLACEHOLDER — the real words behind the letter]",
+    "chapter": 4
+  },
+  "memory_timeline": {
+    "id": "memory_timeline",
+    "title": "The Forgotten Timeline",
+    "text": "Laid side by side, the photographs made a single line — and the line pointed here.",
+    "personalNote": "[PLACEHOLDER — the real timeline of shared moments]",
+    "chapter": 4
+  },
+  "memory_garden": {
+    "id": "memory_garden",
+    "title": "The Secret Garden",
+    "text": "Quiet places keep the loudest memories.",
+    "personalNote": "[PLACEHOLDER — a memory of a quiet place you shared]",
+    "chapter": 4
+  },
+  "memory_keepsakes": {
+    "id": "memory_keepsakes",
+    "title": "The Memory Box",
+    "text": "A flower kept, a photograph found, a locket left behind. Together they made a map.",
+    "personalNote": "[PLACEHOLDER — what these three keepsakes stand for]",
+    "chapter": 5
+  },
+  "memory_postcards": {
+    "id": "memory_postcards",
+    "title": "Wish You Were Here",
+    "text": "Three postcards from nowhere in particular — which is to say, from everywhere that mattered.",
+    "personalNote": "[PLACEHOLDER — places you have been together]",
+    "chapter": 2
+  },
+  "memory_final": {
+    "id": "memory_final",
+    "title": "The Street Was Made for You",
+    "text": "The town was never a mystery. It was a love letter with streets.",
+    "personalNote": "[PLACEHOLDER — the final personal message]",
+    "chapter": 5
+  }
+}

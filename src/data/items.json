@@ -1,0 +1,100 @@
+{
+  "flower_white": {
+    "id": "flower_white",
+    "name": "Little White Flower",
+    "description": "Soft as morning light, found near the town entrance.",
+    "category": "quest",
+    "icon": "🌼"
+  },
+  "flower_pink": {
+    "id": "flower_pink",
+    "name": "Little Pink Flower",
+    "description": "It was sunning itself by the plaza.",
+    "category": "quest",
+    "icon": "🌸"
+  },
+  "flower_blue": {
+    "id": "flower_blue",
+    "name": "Little Blue Flower",
+    "description": "It was hiding behind the bookstore. It smells faintly familiar.",
+    "category": "quest",
+    "icon": "💠"
+  },
+  "pressed_flower": {
+    "id": "pressed_flower",
+    "name": "Pressed Blue Flower",
+    "description": "Lily pressed it flat and gave it back. 'Keep it,' she said. A keepsake.",
+    "category": "keepsake",
+    "icon": "📘"
+  },
+  "page_1": {
+    "id": "page_1",
+    "name": "Torn Page I",
+    "description": "A page from Arthur's mysterious book.",
+    "category": "quest",
+    "icon": "📄"
+  },
+  "page_2": {
+    "id": "page_2",
+    "name": "Torn Page II",
+    "description": "A page from Arthur's mysterious book.",
+    "category": "quest",
+    "icon": "📄"
+  },
+  "page_3": {
+    "id": "page_3",
+    "name": "Torn Page III",
+    "description": "A page from Arthur's mysterious book.",
+    "category": "quest",
+    "icon": "📄"
+  },
+  "letter_sealed": {
+    "id": "letter_sealed",
+    "name": "The Undelivered Letter",
+    "description": "Oliver carried it for years. The address reads: the Little Café.",
+    "category": "quest",
+    "icon": "✉️"
+  },
+  "old_photograph": {
+    "id": "old_photograph",
+    "name": "Old Photograph",
+    "description": "It was tucked inside the letter. Emma said you should keep it. A keepsake.",
+    "category": "keepsake",
+    "icon": "🖼️"
+  },
+  "garden_key": {
+    "id": "garden_key",
+    "name": "Garden Key",
+    "description": "A small key with a heart-shaped bow. It must open something nearby.",
+    "category": "quest",
+    "icon": "🗝️"
+  },
+  "garden_locket": {
+    "id": "garden_locket",
+    "name": "Garden Locket",
+    "description": "Left waiting by the fountain in the hidden garden. A keepsake.",
+    "category": "keepsake",
+    "icon": "🫧"
+  },
+  "postcard_1": {
+    "id": "postcard_1",
+    "name": "Postcard — Entrance",
+    "description": "One of Oliver's runaway postcards.",
+    "category": "quest",
+    "icon": "💌"
+  },
+  "postcard_2": {
+    "id": "postcard_2",
+    "name": "Postcard — Yellow House",
+    "description": "One of Oliver's runaway postcards.",
+    "category": "quest",
+    "icon": "💌"
+  },
+  "postcard_3": {
+    "id": "postcard_3",
+    "name": "Postcard — Hill Path",
+    "description": "One of Oliver's runaway postcards.",
+    "category": "quest",
+    "icon": "💌"
+  }
+}

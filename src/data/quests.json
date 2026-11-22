@@ -1,0 +1,69 @@
+{
+  "strange_invitation": {
+    "id": "strange_invitation",
+    "title": "A Strange Invitation",
+    "giver": null,
+    "description": "You woke up at the entrance of an unfamiliar town. Something seems to be waiting in the old mailbox.",
+    "objectives": [{ "id": "read", "description": "Find and read the invitation" }]
+  },
+  "flowers_for_someone": {
+    "id": "flowers_for_someone",
+    "title": "A Flower for Someone",
+    "giver": "lily",
+    "description": "Lily asked you to gather three little flowers blooming around the street: a white one near the entrance, a pink one at the plaza, and a blue one hiding behind the bookstore.",
+    "objectives": [
+      { "id": "pick_white", "description": "Find the white flower near the entrance" },
+      { "id": "pick_pink", "description": "Find the pink flower at the plaza" },
+      { "id": "pick_blue", "description": "Find the blue flower behind the bookstore" },
+      { "id": "return", "description": "Bring the flowers back to Lily" }
+    ]
+  },
+  "missing_pages": {
+    "id": "missing_pages",
+    "title": "The Missing Pages",
+    "giver": "arthur",
+    "description": "Three pages are missing from a mysterious book in Arthur's shop — carried off by the wind, he says. One near his bench, one by the plaza, one behind the café.",
+    "objectives": [
+      { "id": "page_1", "description": "Find the first missing page" },
+      { "id": "page_2", "description": "Find the second missing page" },
+      { "id": "page_3", "description": "Find the third missing page" },
+      { "id": "arrange", "description": "Help Arthur put the pages in order" }
+    ]
+  },
+  "letter_never_sent": {
+    "id": "letter_never_sent",
+    "title": "A Letter Never Sent",
+    "giver": "oliver",
+    "description": "Oliver has carried one letter for years without ever delivering it. The address reads simply: the Little Café.",
+    "objectives": [{ "id": "deliver", "description": "Deliver the old letter to Emma at the café" }]
+  },
+  "forgotten_timeline": {
+    "id": "forgotten_timeline",
+    "title": "The Forgotten Timeline",
+    "giver": "emma",
+    "description": "Photographs were tucked inside the letter. Emma wants help arranging them in the order they happened.",
+    "objectives": [{ "id": "arrange", "description": "Arrange the photographs in order" }]
+  },
+  "last_destination": {
+    "id": "last_destination",
+    "title": "The Last Destination",
+    "giver": "stranger",
+    "description": "The Stranger says the keepsakes you gathered belong together. Fill the memory box — and the way to the hill will open.",
+    "objectives": [
+      { "id": "box", "description": "Place the three keepsakes in the memory box" },
+      { "id": "reach", "description": "Climb the hill" }
+    ]
+  },
+  "postcards_from_nowhere": {
+    "id": "postcards_from_nowhere",
+    "title": "Postcards from Nowhere",
+    "giver": "oliver",
+    "description": "Postcards keep slipping out of Oliver's bag. Three are scattered around town: by the entrance, behind the yellow house, and near the hill path.",
+    "objectives": [
+      { "id": "p1", "description": "Find the postcard near the entrance" },
+      { "id": "p2", "description": "Find the postcard behind the yellow house" },
+      { "id": "p3", "description": "Find the postcard near the hill path" },
+      { "id": "return", "description": "Return the postcards to Oliver" }
+    ]
+  }
+}
